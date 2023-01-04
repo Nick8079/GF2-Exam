@@ -1,5 +1,5 @@
 #who {
-    width: 45vw;
+    width: 49.5vw;
     height: fit-content;
     background-color: #75D1FF;
     color: #fff;
@@ -7,11 +7,12 @@
 }
 
 #section-2{
-    width: 50vw;
+    width: 49.5vw;
     height: fit-content;
     color: #000;
     white-space: pre-line;
 }
+
 .column {
     float: left;
 }
