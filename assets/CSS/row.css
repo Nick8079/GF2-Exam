@@ -3,14 +3,14 @@
     height: fit-content;
     background-color: #75D1FF;
     color: #fff;
-    white-space: pre-line;
+    white-space: pre;
 }
 
 #section-2{
     width: 49.5vw;
     height: fit-content;
     color: #000;
-    white-space: pre-line;
+    white-space: pre;
 }
 
 .column {
