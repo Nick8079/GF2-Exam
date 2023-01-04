@@ -6,6 +6,12 @@
     white-space: pre-line;
 }
 
+#section-2{
+    width: 49.5vw;
+    height: fit-content;
+    color: #000;
+    white-space: pre-line;
+}
 .column {
     float: left;
 }
@@ -26,3 +32,4 @@
     font-size: 18px;
     font-weight: bold;
 }
+
