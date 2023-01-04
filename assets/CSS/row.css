@@ -1,0 +1,28 @@
+#who {
+    width: 49.5vw;
+    height: fit-content;
+    background-color: #75D1FF;
+    color: #fff;
+    white-space: pre-line;
+}
+
+.column {
+    float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column p img{
+    background-color: #d7dbde;
+    
+}
+
+.bold{
+    font-size: 18px;
+    font-weight: bold;
+}

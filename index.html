@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="assets/CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="header">
+
+        <nav>
+            <a href="#default" class="logo"><img src="assets/IMG/Event Centrum Logo.png" alt="Event Centrum logo"></a>
+            <div class="header-right">
+                <a href="index.html">Forside</a>
+                <a href="#cfester">Fester</a>
+                <a href="#firma-events">Firma Events</a>
+                <a href="#kontakt"> Kontakt</a>
+            </div>
+        </nav>
+    </header>
+    <!-- Header slut -->
+
+    <!-- Slider start-->
+    <div class="slider-container">
+        <figure class="slide fade">
+            <img src="assets/IMG/Billede(1).jpg" alt="">
+            <p class="text-top">Event Centrum skaber</p>
+            <h1 class="text-bold">DEN HELT RIGTIGE STEMNING</h1>
+            <p class="text-bottom">
+                ...i jeres egne rammer (kantine, lager, parkeringskælder), udendørs (skov, strand)
+                eller på hoteller & konferencesteder overalt i Danmark
+            </p>
+            <a class="text-button" href="#læs mere">Læs mere</a>
+
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/IMG/Billede(2).jpg" alt="">
+
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/IMG/Billede(3).jpg" alt="">
+
+        </figure>
+
+
+        <!-- Previous og Next knapper -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!-- slider slut -->
+
+    <section class="row">
+
+        <!-- (hvem er vi) begynder -->
+        <section class="column" id="who">
+            <h1>Hvem er vi</h1>
+            <p>Event Centrum har mange års erfaring med udvikling og
+                afholdelse af både store og små arrangementer.
+
+                Vi stræber efter at vores kunder kommer til at opleve glæde og
+                motivation ved hjælp af ekstraordinære oplevelser. Vi vil med
+                vores professionalisme og gode historier skabe grobund for at
+                styrke relationer mellem ledelse og medarbejdere,
+                virksomheden og kunderne.
+
+                Enhver virksomhed er en unik sammensætning af mennesker,
+                ressourcer og udfordringer. Vi afholder gerne et indledende og
+                uforpligtende møde, så vi kan imødekomme jeres behov bedst
+                muligt.
+
+                Hvadenten I har brug for en konference, teambuilding eller et
+                seminar, finder vi en løsning, der sikrer at jeres arrangement
+                bliver en succes.</p>
+        </section>
+        <!-- (hvem er vi) slutter -->
+
+
+        <!--kompetancer begynder  -->
+        <section class="column" id="section-2">
+            <p><img src="assets/IMG/Done.png" alt="flueben">
+                <p class="bold">Tilrettelagt</p>
+                Event Centrum planlægger, koordinerer og afvikler
+                begivenheder i alle størrelser </p>
+
+            <p><img src="assets/IMG/trophy.png" alt="trofæ">
+                <p class="bold">Tilrettelagt</p>
+                Event Centrum planlægger, koordinerer og afvikler
+                begivenheder i alle størrelser</p>
+            <p><img src="assets/IMG/Shuffle.png" alt="Shuffle">
+                <p class="bold">Tilrettelagt</p>
+                Event Centrum planlægger, koordinerer og afvikler
+                begivenheder i alle størrelser </p>
+            <p><img src="assets/IMG/Speedometer.png" alt="Speedometer">
+                <p class="bold">Tilrettelagt</p>
+                Event Centrum planlægger, koordinerer og afvikler
+                begivenheder i alle størrelser </p>
+        </section>
+        <!--kompetancer slutter  -->
+    </section>
+
+    <!-- Footer starter -->
+    <Footer>
+        <p class="big">Kontakt os</p>
+        <p>Vi stræber efter at vores kunder kommer til at opleve glæde og
+            motivation ved hjælp af ekstraordinære oplevelser. For en
+            uforpligtende samtale om mulighederne i jeres arrangement.
+        </p>
+
+        <p>Besøg os på</p>
+        <p>Event Centrum, Hjørringvej 17, 4000 Roskilde</p>
+
+        <p>Ring til os på</p>
+        <p>+45 21346578</p>
+
+        <p>Skriv til os på</p>
+        <p>email@event-centrum.dk</p>
+
+        <form>
+            <p>Send os et par linjer</p>
+            <input type="text" id="fname" name="firstname" placeholder="Eksempel på input-tekst" required>
+
+            <input type="email" id="email" name="email" placeholder="Skriv din email her">
+
+            <textarea id="subject" name="subject" placeholder="Skriv din besked her"></textarea>
+
+            <input type="submit" onclick="show_alert()" value="send" />
+        </form>
+    </Footer>
+
+
+
+
+
+
+    <script src="assets/JS/Slider.js" defer></script>
+</body>
+
+</html>
