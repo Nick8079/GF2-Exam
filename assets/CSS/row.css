@@ -3,16 +3,14 @@
     height: fit-content;
     background-color: #75D1FF;
     color: #fff;
-    white-space: pre;
+    white-space: pre-line;
 }
 
-#section-2{
-    width: 49.5vw;
+.section-2{
+    width: fit-content;
     height: fit-content;
-    color: #000;
-    white-space: pre;
+    white-space: pre-line;
 }
-
 .column {
     float: left;
 }
@@ -24,7 +22,7 @@
     clear: both;
 }
 
-.column p img{
+.column img{
     background-color: #d7dbde;
     
 }
